@@ -1,4 +1,5 @@
-﻿string myName = "Георгий Барабанов";
+﻿// Объявляет переменные с данными для знакомства
+string myName = "Георгий Барабанов";
 string groupName = "ИСП-253";
 int courseNumber = 2;
 double averageGrade = 4.6;
@@ -10,7 +11,7 @@ Console.WriteLine($"Группа: {groupName}");
 Console.WriteLine($"Курс: {courseNumber}");
 Console.WriteLine($"Средний балл: {averageGrade}");
 Console.WriteLine($"Бюджетное место: {isBudget}");
- 
+ // Расчет площади и периметра для ремонта комнаты
 Console.WriteLine();
 Console.WriteLine("Ремонт: комната");
 
@@ -23,7 +24,7 @@ double roomPerimeter = (roomWidth + roomLength) * 2;
 Console.WriteLine($"Ширина: {roomWidth} м, длина: {roomLength} м");
 Console.WriteLine($"Площадь: {roomArea} кв.м");
 Console.WriteLine($"Периметр: {roomPerimeter} м");
-
+// Считаем общую стоимость и платеж по рассрочке за ноутбук
 Console.WriteLine();
 Console.WriteLine("Покупка ноутбука в рассрочку");
 
