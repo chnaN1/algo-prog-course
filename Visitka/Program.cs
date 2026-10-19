@@ -1,4 +1,7 @@
-﻿const string CollegeName = "Волгоградский государственный университет";
+﻿// Константа учебного заведения
+const string CollegeName = "Волгоградский государственный университет";
+
+// Не менее 6 переменных разных типов (string, int, double, bool)
 string fullName = "Барабанов Георгий Валерьевич";
 string group = "ИСП-253";
 string specialty = "09.02.07 Информационные системы и программирование";
@@ -8,6 +11,8 @@ bool isBudget = false;
 int totalDaysInSemester = 120;
 int daysPassed = 45;
 int daysLeft = totalDaysInSemester - daysPassed;
+
+// Вывод через интерполяцию с разделителями
 Console.WriteLine("=================================================");
 Console.WriteLine($"      ВИЗИТНАЯ КАРТОЧКА СТУДЕНТА          ");
 Console.WriteLine("=================================================");
