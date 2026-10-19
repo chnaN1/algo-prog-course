@@ -90,3 +90,13 @@ int monthlyBalance = scholarship - monthlyExpenses;
 int semesterBalance = monthlyBalance * MonthsInSemester;
 Console.WriteLine($"Остаток за месяц: {monthlyBalance} руб.");
 Console.WriteLine($"Остаток за семестр ({MonthsInSemester} месяца): {semesterBalance} руб.");
+
+Console.WriteLine();
+Console.WriteLine("Расчет учебного времени:");
+
+int totalMinutes = 500;
+int minutesPerLesson = 45;
+
+int fullLessons = totalMinutes / minutesPerLesson;
+int remainingMinutes = totalMinutes % minutesPerLesson; 
+Console.WriteLine($"{totalMinutes} минут = {fullLessons} полных занятий + {remainingMinutes} минут.");
